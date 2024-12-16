@@ -1,0 +1,37 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+}
+
+
+.order-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; 
+  width: 300px;
+}
+
+.close-order {
+  padding: 10px 15px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.close-order:hover {
+  background-color: #d32f2f;
+}
+
+
+

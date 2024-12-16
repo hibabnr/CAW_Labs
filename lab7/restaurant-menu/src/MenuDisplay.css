@@ -1,0 +1,29 @@
+.menu-display {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+  }
+  
+  button.active {
+    background-color: #d1d1d1;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
