@@ -1,0 +1,124 @@
+
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #3e3c3c;
+}
+
+h4 {
+    text-align: center;
+    color: #3e3c3c;
+
+}
+
+h3 {
+
+    text-align: start;
+    color: grey;
+
+}
+
+p {
+    padding-top: 20px;
+    text-align: start;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    margin-inline: 20px; 
+
+
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px );
+    max-width: calc(33.33% - 20px );
+    width: 100%;
+    height: 120px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #FFDA03;
+ 
+}
+
+.card2 {
+    flex: display;
+    width: 100%;
+    height: 90px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+ 
+}
+
+.income {
+    color: green;
+}
+
+.expense {
+    color: red;
+}
+
+.balance {
+    font-weight: bold;
+}
+
+.balance.positive {
+    color: green;  
+}
+
+.balance.negative {
+    color: red;    
+}
+
+@media (max-width:580px) {
+    .card {
+        flex: 0 0 calc(50% - 10px); 
+        max-width: calc(50% - 10px);
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards {
+        padding: 10px;
+        margin-inline: 5px;
+    }
+
+    .card {
+        flex: 0 0 calc(100% - 10px); 
+        max-width: calc(100% - 10px);
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 1rem; 
+    }
+}

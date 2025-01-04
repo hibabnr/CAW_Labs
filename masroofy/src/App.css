@@ -1,0 +1,6 @@
+.App {
+
+  background-color: rgb(245, 240, 204);
+  min-height: 100vh; 
+  display: flexbox;     
+}
